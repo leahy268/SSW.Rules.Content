@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you make sure there is a valid backup?
-uri: valid-backup
+uri: is-there-a-valid-backup
 authors:
   - title: Warwick Leahy
     url: www.ssw.com.au/people/warwick-leahy
