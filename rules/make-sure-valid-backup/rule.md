@@ -12,13 +12,26 @@ It is crucial to verify that all clients have a reliable backup solution in plac
 
 <!--endintro-->
 
-It is totally ok if a client just tells you that they are handling the backups.  However this decision should still be documented on the project so that someone knew knows.
+If a client just tells you that they are handling the backups document the decision on the project so that someone new understands.
 
 
 
-Good ways to backup data include:
+### What type of Backup?
 
-Local backups: Storing backups on an external hard drive or another separate device that is kept on-premises.
-Cloud-based backups: Utilizing cloud storage solutions such as Microsoft Azure Backup to store and protect data in the cloud. Azure Backup offers multiple backup options and flexible recovery options to meet the specific needs of your clients.
-Hybrid backups: Combining local and cloud backups to provide a complete solution for backing up and protecting data.
+This depends a lot on what needs to be backed up.
+
+- Azure storage and VM's - Use Azure Backup https://learn.microsoft.com/en-us/azure/backup/backup-overview
+- Azure SQL - Use a SKU that extends the backup and use the built-in backup https://learn.microsoft.com/en-us/azure/backup/backup-azure-sql-database
+- Office365/SharePoint - A product like N-Able Cove Data Protection https://www.n-able.com/products/cove-data-protection provides 7 years of retention and 1Tb of storage per user
+- On-Premises Servers and VM's - With enough bandwidth these can be backed up using Azure Backup, or without Microsoft Data Protection Manager provides excellent local backup https://learn.microsoft.com/en-us/system-center/dpm/dpm-overview?view=sc-dpm-2022
+
+### Testing backups
+
+
+
+
 It is important to regularly test backups to ensure that they are successful and the data can be recovered in the event of an emergency. Regular communication with clients about their backup solution and regularly scheduled testing will help ensure their data remains secure.
+
+### Project Handover
+
+Once a project is ready for production, backups should be discussed with the client and they should be comfortable with the process and retention periods of backups.
