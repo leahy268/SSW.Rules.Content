@@ -5,6 +5,8 @@ uri: is-there-a-valid-backup
 authors:
   - title: Warwick Leahy
     url: www.ssw.com.au/people/warwick-leahy
+related:
+  - rules-to-better-backups
 created: 2023-02-12T22:41:58.610Z
 guid: 93ee99b8-e566-4455-b122-588e4fd48122
 ---
