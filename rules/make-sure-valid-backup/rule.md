@@ -22,9 +22,9 @@ If a client just tells you that they are handling the backups document the decis
 
 This depends a lot on what needs to be backed up.
 
-- Azure storage and VM's - [Azure Backup](https://learn.microsoft.com/en-us/azure/backup/backup-overview) provides excellent backup for any VM's or storage, restoring data and vm's is almost instant.
+- Azure storage and VM's - [Azure Backup](https://learn.microsoft.com/en-us/azure/backup/backup-overview) - Provides excellent backup for any VM's or storage, restoring data and vm's is almost instant.
 - Azure SQL - [Azure SQL Built-in Backup](https://learn.microsoft.com/en-us/azure/backup/backup-azure-sql-database) - Use a SKU that allows long enough retention periods and choosing which point to restore 
-- Office365/SharePoint - A product like [N-Able Cove Data Protection](https://www.n-able.com/products/cove-data-protection) provides 7 years of retention and 1Tb of storage per user
+- Office365/SharePoint - [N-Able Cove Data Protection](https://www.n-able.com/products/cove-data-protection) - Provides 7 years of retention and 1TB of storage per user
 - On-Premises Servers and VM's - Azure Backup can be used to back up on-premises servers and VMs with sufficient bandwidth. Alternatively, local backup can be achieved through [Microsoft Data Protection Manager](https://learn.microsoft.com/en-us/system-center/dpm/dpm-overview?view=sc-dpm-2022), which offers excellent functionality. 
 
 ### Testing backups
