@@ -20,7 +20,9 @@ When sending repetitive emails, consistency across the organization is crucial. 
 ## 1. Outlook email templates
 
 **Pros:**
+- Rich text
 - Simple to create
+
 - Can be shared easily (e.g., via SharePoint)
 
 **Cons:**
@@ -30,9 +32,11 @@ When sending repetitive emails, consistency across the organization is crucial. 
 ## 2. My Templates
 
 **Pros:**
+- Rich text
 - Simple to create
 
 **Cons:**
+
 - Can't be shared with other users
 - 32Kb limit
 - Stored on the Server in your mailbox
@@ -40,6 +44,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 ## 3. Signatures
 
 **Pros:**
+- Rich text
 - Simple to create
 
 **Cons:**
@@ -63,7 +68,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 - Can be shared with anyone
 
 **Cons:**
-- Need to switch to another window
+- Need to switch from outlook to SharePoint to find the template
 
 ## 6. Dynamics 365 Email Templates
 
@@ -75,7 +80,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 **Cons:**
 - More complex to set up
-- Fonts can be tricky to set
+- Fonts can be tricky to set especially for dynamic data
 - Doesn't work with meetings
 - Duplication of templates
 - Many clicks to access the template
