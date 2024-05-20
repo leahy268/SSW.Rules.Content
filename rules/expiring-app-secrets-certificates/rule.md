@@ -1,6 +1,13 @@
 ---
 type: rule
 title: Do you keep track of expiring app registration secrets and certificates?
+seoDescription: Ensure continuous app functionality by tracking expiring app
+  registration secrets and certificates in Azure AD. Learn how to prevent
+  application downtime by using PowerShell scripts or Logic Apps to monitor
+  expiry dates. Get step-by-step instructions on using PowerShell cmdlets and
+  setting up automated notifications for expiring secrets and certificates.
+  Explore examples and resources to maintain security and avoid disruptions in
+  your Azure AD app registrations.
 uri: expiring-app-secrets-certificates
 authors:
   - title: Chris Schultz
