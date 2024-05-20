@@ -21,7 +21,7 @@ In Azure AD, App Registrations are used to establish a trust relationship betwee
 
 App Registrations use secrets or certificates for authentication. 
 
-If these authentication methods expire without your knowledge, it can cause downtime⚠️. Therefore, it is crucial to keep track of their expiry dates and update them before any disruptions occur.
+If these authentication methods expire without your knowledge, it can cause downtime⚠️. Even worse if there is no notification the source of the outage may take a while to find. Therefore, it is crucial to keep track of their expiry dates and update them before any disruptions occur.
 
 <!--endintro-->
 
